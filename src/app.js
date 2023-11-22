@@ -1,14 +1,14 @@
 import React from "react";
 
-import Local from '../../assets/local.png'
-import Logo from '../../assets/logo.png'
-import HomeImageLink from '../../assets/homeLink.png'
-import MenuImageLink from '../../assets/hamburguerLink.png'
-import logoInstaPreto from '../../assets/logo-insta-preto.png'
-import logoInstaBranco from '../../assets/logo-insta-branco.png'
-import logoWhatsPreto from '../../assets/logo-whats-preto.png'
-import logoWhatsBranco from '../../assets/logo-whats-branco.png'
-import hotDogImage from '../../assets/hot-dog.png'
+import Local from './assets/local.png'
+import Logo from './assets/logo.png'
+import HomeImageLink from './assets/homeLink.png'
+import MenuImageLink from './assets/hamburguerLink.png'
+import logoInstaPreto from './assets/logo-insta-preto.png'
+import logoInstaBranco from './assets/logo-insta-branco.png'
+import logoWhatsPreto from './assets/logo-whats-preto.png'
+import logoWhatsBranco from './assets/logo-whats-branco.png'
+import hotDogImage from './assets/hot-dog.png'
 
 import {
   Body,

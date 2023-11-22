@@ -58,7 +58,7 @@ export const Header = styled.div`
             .home-box,
             .menu-box {
             
-            font-size: 3vw;
+            font-size: 3.5vw;
             }
     }
 `;
@@ -93,7 +93,7 @@ export const HomeLinkImage = styled.img`
         width: 5vw;
     }
     @media screen and (max-width: 870px) {
-        width: 7vw;
+        width: 6vw;
     }
 `;
 
@@ -109,7 +109,7 @@ export const MenuLinkImage = styled.img`
         width: 5vw;
     }
     @media screen and (max-width: 870px) {
-        width: 7vw;
+        width: 6vw;
     }
 `;
 

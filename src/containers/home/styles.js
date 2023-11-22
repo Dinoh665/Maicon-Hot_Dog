@@ -171,8 +171,8 @@ export const LinkPedidos = styled.a`
     border-radius: 5px;
   }
   @media screen and (max-width: 870px) {
-    width: 14vw;
-    font-size: 1.58vw;
+    width: 18vw;
+    font-size: 2vw;
 }
 `;
 

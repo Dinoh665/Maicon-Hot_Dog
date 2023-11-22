@@ -52,9 +52,14 @@ export const Header = styled.div`
     @media screen and (min-width: 547px) {
         flex-direction: row;
     }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 870px) {
     
+            .link-box,
+            .home-box,
+            .menu-box {
+            
             font-size: 3vw;
+            }
     }
 `;
 
@@ -87,6 +92,9 @@ export const HomeLinkImage = styled.img`
   @media screen and (max-width: 547px) {
         width: 5vw;
     }
+    @media screen and (max-width: 870px) {
+        width: 7vw;
+    }
 `;
 
 export const HomeLink = styled.a`
@@ -99,6 +107,9 @@ export const MenuLinkImage = styled.img`
   width: 2vw;
   @media screen and (max-width: 547px) {
         width: 5vw;
+    }
+    @media screen and (max-width: 870px) {
+        width: 7vw;
     }
 `;
 
@@ -170,6 +181,9 @@ export const WhatsImage = styled.img`
   width: 3vw;
   @media screen and (max-width: 547px) {
     width: 2vh;
+  }
+  @media screen and (max-width: 870px) {
+    width: 3vh;
   }
 `;
 

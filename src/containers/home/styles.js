@@ -155,8 +155,8 @@ export const LinkPedidos = styled.a`
     width: 15vw;
     border-radius: 5px;
   }
-  @media screen and (max-width: 800px) {
-    
+  @media screen and (max-width: 870px) {
+    width: 14vw;
     font-size: 1.58vw;
 }
 `;

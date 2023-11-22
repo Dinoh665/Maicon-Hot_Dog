@@ -26,12 +26,13 @@ export const Header = styled.div`
     }
     .link-box {
         display: flex;
+        flex-direction: column;
         gap: 5vw;
         font-size: 1.5vw;
         color: #DBFF00;
     }
-    .home-box,
-    .menu-box {
+    .menu-box,
+    .home-box {
         display: flex;
         gap: 1vw;
         align-items: center;
@@ -58,7 +59,7 @@ export const Header = styled.div`
             .home-box,
             .menu-box {
             
-            font-size: 3.5vw;
+            font-size: 4vw;
             }
     }
 `;
@@ -93,7 +94,7 @@ export const HomeLinkImage = styled.img`
         width: 5vw;
     }
     @media screen and (max-width: 870px) {
-        width: 6vw;
+        width: 5.2vw;
     }
 `;
 
@@ -109,7 +110,7 @@ export const MenuLinkImage = styled.img`
         width: 5vw;
     }
     @media screen and (max-width: 870px) {
-        width: 6vw;
+        width: 5.2vw;
     }
 `;
 

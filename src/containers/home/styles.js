@@ -200,7 +200,7 @@ export const Section = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2vw;
+    gap: 4vh 2vw;
   }
   .lanche-div {
     height: 5vh;
@@ -230,7 +230,8 @@ export const Section = styled.div`
 export const H1 = styled.h1`
     margin-top: 3vh;
     margin-bottom: 5vh ;
-    font-size: 2vw;
+    font-size: 6vw;
+    color:  #FF0000;
     @media screen and (max-width: 547px) {
         font-size: 4vw;
     }
@@ -248,16 +249,16 @@ export const Button = styled.button`
   height: 4vh;
   border-radius: 7px;
   background: #E09426;
-  margin-top: 1vh;
+  margin-top: 2vh;
   border: none;
   margin-bottom: 10vh;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   &&:hover{
     cursor: pointer;
     background-color: rgba(224, 148, 38, 0.8);
     
   }
-  @media screen and (max-width: 547px) {
+  @media screen and (max-width: 870px) {
         font-size: 3vw;
     }
 `;
@@ -277,6 +278,11 @@ export const Footer = styled.div`
     margin: 5vh;
     font-size: 1.5vw;
   }
+  @media screen and (max-width: 870px) {
+    h1{
+    font-size: 2vw;
+  }
+}
   @media screen and (max-width: 547px) {
     height: 6vh;
     border-radius: 10px;

@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM  from "react-dom";
 import GlobalStyle from './styles/globalStyles'; 
-import { Routes } from "react-router-dom";
+import Routes from './routes'
 
 ReactDOM.render( 
   <> 
-  <Routes />
+  <Routes /> 
   <GlobalStyle /> 
   </>,
    document.getElementById('root')
-   
+
    );

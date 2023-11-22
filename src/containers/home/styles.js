@@ -18,28 +18,24 @@ export const Header = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
-
     .local-box {
         display: flex;
         align-items: center;
         flex-direction: column;
         color: #DBFF00;
     }
-
     .link-box {
         display: flex;
         gap: 5vw;
         font-size: 1.5vw;
         color: #DBFF00;
     }
-
     .home-box,
     .menu-box {
         display: flex;
         gap: 1vw;
         align-items: center;
     }
-
     @media screen and (max-width: 547px) {
         grid-template-columns: 1fr;
         .local-box,
@@ -53,11 +49,9 @@ export const Header = styled.div`
         }
         height: 20vh;
     }
-
     @media screen and (min-width: 547px) {
         flex-direction: row;
     }
-
     @media screen and (max-width: 800px) {
     
             font-size: 3vw;
@@ -70,7 +64,6 @@ export const LocalImage = styled.img`
 
 export const H2 = styled.h2`
   margin: 0;
-
 `;
 
 export const LocalParagrafo = styled.p`
@@ -87,7 +80,6 @@ export const LocalParagrafo = styled.p`
 
 export const LogoImage = styled.img`
   width: 16.8vw;
-
 `;
 
 export const HomeLinkImage = styled.img`
@@ -126,19 +118,15 @@ export const HeaderTwo = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   @media screen and (max-width: 547px) {
     align-items: center;
-
   }
-
 `;
 
 export const InstaImageLink = styled.a``;
 
 export const InstaImage = styled.img`
   width: 3vw;
-
   @media screen and (max-width: 547px) {
     width: 2vh;
   }
@@ -162,7 +150,6 @@ export const LinkPedidos = styled.a`
     margin-left: 1vw;
     margin-right: 1vw;
   }
-
   @media screen and (max-width: 547px) {
     height: 2vh;
     width: 15vw;
@@ -178,7 +165,6 @@ export const WhatsImageLink = styled.a``;
 
 export const WhatsImage = styled.img`
   width: 3vw;
-
   @media screen and (max-width: 547px) {
     width: 2vh;
   }
@@ -192,14 +178,12 @@ export const Section = styled.div`
   justify-items: center;
   align-items: center;
   width:  97%;
-
   .lanches {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2vw;
   }
-
   .lanche-div {
     height: 5vh;
     background-color: #ff9100;
@@ -214,17 +198,13 @@ export const Section = styled.div`
     font-size: 2vw;
 }
   }
-
   @media screen and (max-width: 547px) {
-
     .lanches {
       align-items: center;
     }
-
     .lanche-div {
         font-size: 4vw;
     }
-
     
   }
 `;
@@ -254,17 +234,14 @@ export const Button = styled.button`
   border: none;
   margin-bottom: 10vh;
   font-size: 1.5vw;
-
   &&:hover{
     cursor: pointer;
     background-color: rgba(224, 148, 38, 0.8);
     
   }
-
   @media screen and (max-width: 547px) {
         font-size: 3vw;
     }
-
 `;
 
 export const Footer = styled.div`
@@ -276,16 +253,13 @@ export const Footer = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-
   h1 {
     color: black;
     font-weight: 100;
     margin: 5vh;
     font-size: 1.5vw;
   }
-
   @media screen and (max-width: 547px) {
-
     height: 6vh;
     border-radius: 10px;
     
@@ -294,4 +268,3 @@ export const Footer = styled.div`
     }
 }
 `;
-

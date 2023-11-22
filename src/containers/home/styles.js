@@ -130,6 +130,9 @@ export const InstaImage = styled.img`
   @media screen and (max-width: 547px) {
     width: 2vh;
   }
+  @media screen and (max-width: 870px) {
+    width: 3vh;
+  }
 `;
 
 export const LinkPedidos = styled.a`

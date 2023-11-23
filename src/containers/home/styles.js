@@ -57,8 +57,7 @@ export const Header = styled.div`
     @media screen and (max-width: 870px) {
     
             .link-box{
-              display: flex;
-              justify-content: center;
+              text-align: center;
             }
 
             .link-box,

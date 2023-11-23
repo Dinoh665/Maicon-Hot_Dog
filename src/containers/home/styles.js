@@ -50,7 +50,7 @@ export const Header = styled.div`
         }
         height: 20vh;
     }
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 700px) {
       display: flex;
         flex-direction: row;
     }
@@ -174,13 +174,6 @@ export const LinkPedidos = styled.a`
   @media screen and (max-width: 870px) {
     width: 18vw;
     font-size: 2vw;
-    &:active {
-    width: 9vw;
-    background: rgba(69, 0, 0, 0.6);
-    font-size: 1vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
 }
 `;
 

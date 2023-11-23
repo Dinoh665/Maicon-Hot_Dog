@@ -50,7 +50,7 @@ export const Header = styled.div`
         }
         height: 20vh;
     }
-    @media screen and (min-width: 760px) {
+    @media screen and (max-width: 760px) {
       display: flex;
         flex-direction: row;
     }

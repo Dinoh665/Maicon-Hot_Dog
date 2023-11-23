@@ -51,7 +51,7 @@ export const Header = styled.div`
         height: 20vh;
     }
     @media screen and (min-width: 760px) {
-        flex-direction: column;
+        flex-direction: row;
     }
     @media screen and (max-width: 870px) {
     

@@ -50,9 +50,7 @@ export const Header = styled.div`
         }
         height: 20vh;
     }
-    @media screen and (max-width: 700px) {
-      justify-content: center;
-      align-items: center;
+    @media screen and (max-width: 590px) {
       display: flex;
         flex-direction: row;
     }
